@@ -41,6 +41,7 @@ const Hero = () => {
                 </p>
                 <Button
                     label="Shop now"
+                    backgroundColor='bg-coral-red'
                     iconURL={arrowRight}
 
                 />

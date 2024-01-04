@@ -1,5 +1,8 @@
+import { arrowRight } from "../assets/icons"
 import { offer } from "../assets/images"
 import Button from "../components/Button"
+
+
 
 const SpecialOffer = () => {
     return (
@@ -31,13 +34,17 @@ const SpecialOffer = () => {
                     Our dedication to detail and excellence ensures your
                     Satisfaction
                 </p>
-                <div className="mt-11">
+                <div className="mt-11 flex flex-wrap gap-4">
+                    <Button label='Shop now' iconURL={arrowRight} />
                     <Button
-                        label="View Details"
+                        label='Learn more'
+                        backgroundColor='bg-white'
+                        borderColor='border-slate-gray'>
 
-                    />
-
+                    </Button>
                 </div>
+
+
             </div>
 
         </section>
