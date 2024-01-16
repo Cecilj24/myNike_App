@@ -1,4 +1,5 @@
-import { footerLogo } from "../assets/images"
+import { copyrightSign } from "../assets/icons"
+import { myfooterlogo } from "../assets/images"
 import { footerLinks, socialMedia } from "../constants"
 
 
@@ -10,10 +11,10 @@ const Footer = () => {
                 <div className="flex flex-col items-start">
                     <a href="/"
                     >
-                        <img src={footerLogo}
+                        <img src={myfooterlogo}
                             alt=""
-                            width={150}
-                            height={46}
+                            width={200}
+                            height={60}
 
 
 
@@ -57,6 +58,20 @@ const Footer = () => {
                     ))}
 
                 </div>
+            </div>
+            <div className="flex justify-between text-white-400 mt-24 
+            max-sm:flex-col max-sm:items-center">
+                <div className="flex flex-1 justify-start items-center gap-2 font-montserrat cursor-pointer">
+                    <img
+                        src={copyrightSign}
+                        alt='copyright sign'
+                        width={20}
+                        height={20}
+                        className='rounded-full m-0'
+                    />
+                </div>
+                <p>Copyright. All rights reserved</p>
+
             </div>
         </footer>
     )

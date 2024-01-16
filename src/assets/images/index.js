@@ -7,6 +7,7 @@ import customer2 from './customer2.png'
 
 import footerLogo from './footer-logo.svg'
 import headerLogo from './header-logo.svg'
+import myfooterlogo from './myfooterlogo.png'
 
 import offer from './offer.svg'
 
@@ -31,6 +32,7 @@ export {
 
     footerLogo,
     headerLogo,
+    myfooterlogo,
 
     offer,
     shoe4,
